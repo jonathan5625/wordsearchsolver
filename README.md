@@ -1,8 +1,10 @@
 Project: wordsearchsolver  
 Description: This app solves rectangular word search puzzles.
+
 Bugs: Warning: strpos() when input is empty
-Test input:  
-Words to Find:  
+
+## Test input:  
+### Words to Find:  
 chicken  
 pickle  
 pine  
@@ -12,7 +14,7 @@ nope
 pee  
 icc  
 pii  
-The Puzzle:  
+### The Puzzle:  
 chicken  
 pickleo  
 pineapp  
