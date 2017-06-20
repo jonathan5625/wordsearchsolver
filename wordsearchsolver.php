@@ -9,7 +9,7 @@ if (isset($_POST['a']) && isset($_POST['c']))
 	$run = true;
 ?>
 	<body>
-		<form method="post" action="process5.php">
+		<form method="post" action="wordsearchsolver.php">
 		Words to Find<br>seperate each word by a newline
 		<br><textarea name="a" cols="25" rows="10"><?php if($run == true){ echo $_POST['a']; } ?></textarea><br><br>
 		The Puzzle<br>seperate each word by a newline
